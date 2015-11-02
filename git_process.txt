@@ -1,0 +1,20 @@
+How to open a new file and put in the repository.
+1. Open your terminal
+2. Use this template to clone your repository from the web, git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
+	a.Fill in your actual network and password into the code
+	b.Same with your github username and github repository name
+3. Once that's done, you will get a message like "Unpacking object: 100% done and etc.
+4. Type in the command "gedit Nameofyourfile &"
+	a. This will create a new gedit file with the name of the file being what you typed in to the "Nameofyourfile" section.
+5. Do whatever you want with the file
+6. Once you are done click the "Save" icon on the top bar of gedit, or go to "File" and then click "save".
+7. Type the command "git add"
+	7a. This will add the file to the pile in order get ready to save it
+8. Then you have to commit the file in order to tell the computer to take care of it
+	8a. Use the command: git commit -m "description of your work"
+	8b. Be sure to add a good description to your work for easy organizatoin.
+9. Push the file to GitHub by using the command: git push
+	9a. All of the files that you have comitted will be save to GitHub
+	9b. Type in your username and password for GitHub
+	9c. Don't panic when you can't see your cursor when typing in password, it's normal.
+9. Go to GitHub.com and make sure your work is being save to your repository
