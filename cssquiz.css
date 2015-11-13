@@ -1,0 +1,34 @@
+h1 {
+	color: yellow;
+	background-color: #6600FF;
+	font-family: "UnPilgi";
+	font-style: oblique;
+}
+p {
+	color: #A80000;
+	text-align: center;
+	background-color: green;
+	font-family: "Comic Sans MS";
+	font-style: normal;
+	border-style: dotted;
+	border-width: 5px;
+}
+main {
+	border: dashed;
+	border-color: orange;
+}
+h2 {
+	color: yellow;
+	text-align: left;
+	background-color: blue;
+	font-family: "UnPilgi";
+}
+h3 {
+	color: purple;
+	text-align: left;
+	background-color: orange;
+	font-family: "UnPilgi";
+}
+header {
+	background-color: blue;
+}
