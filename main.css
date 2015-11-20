@@ -48,6 +48,15 @@ footer {
 	border-style: groove;
 	border-width: 2px;
 }
+h3 {
+	color: white;
+}
+p1 {
+	color: white;
+}
+ul {
+	color: white;
+}
 /* 
 *Create a new file called "main.css"
 *Add a link element to the head of your index.html file
