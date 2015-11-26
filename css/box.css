@@ -1,0 +1,16 @@
+.table {
+    background-color: lightgrey;
+    width: 75px;
+    padding: 5px;
+    border: 25px solid navy;
+    margin: center;
+}
+
+.table2 {
+    background-color: yellow;
+    width: 250px;
+    padding: 25px;
+    border: 25px solid red;
+	height: 200px;
+    margin: center;
+}
