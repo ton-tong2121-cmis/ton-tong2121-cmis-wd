@@ -1,0 +1,50 @@
+header {
+    background-color: red;
+	border-right: 100px solid yellow;
+	color: white;
+    padding: 20px;
+    margin: left;
+	width: 400px;
+	
+}
+h1 {
+    background-color: red;
+	color: black;
+	border: solid;
+	border-color: yellow;
+	border-width: 1px;
+    width: 400px;
+    padding: 1px;
+    margin: left;	
+}
+nav {
+	background-color: white;
+    width: 1300px;
+    padding: 0px;
+    border: 1px solid black;
+   	position: relative;
+	left: 150px;
+}
+main {
+	background-color: grey;
+    padding: 20px;
+    margin: auto;
+	width: 1400px;
+}
+main > h2, p {
+    margin: auto;
+	position: relative;
+	left: 125px;
+}
+main > table {
+	position: relative;
+	left: 125px;
+}
+h2 + p {
+	background-color: white;
+	height: 20px;
+}
+p + p {
+	background-color: black;
+	color: white;
+}
