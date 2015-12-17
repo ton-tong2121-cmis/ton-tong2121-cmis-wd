@@ -1,23 +1,24 @@
+<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 * {
 	outline: solid red 1px;
 }
 body {
-	background-image: url("nikon.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url("images/nikon.jpg");
+	background-repeat: repeat;
+	width: 1400px;
 }
 header {
 	width: 100%;
 }
 ul {
-    list-style-type: none;
+	list-style-type: none;
 	font-size: 30px;
     margin: 0;
     padding: 0;
     width: 300px;
-    background-color: grey;
+    background-color: #ffa239;
 	float: left;
-	position: fixed;
 }
 li a {
     display: block;
@@ -26,16 +27,16 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #555;
+    background-color: #ffb663;
     color: white;
 }
 .active {
-    background-color: #4CAF50;
+    background-color: #9b5200;
     color: white;
 }
 h1 {
 	font-size: 70px;
-	color: white;
+	color: #ffd7aa;
 	margin-left: 310px;
 }
 h2 {
@@ -48,9 +49,34 @@ h2 {
 h3 {
 	font-size: 40px;
 	margin-left: 310px;
+	color: #d36f00;
+}
+h4 {
 	color: white;
+	font-size: 30px;
+	width: 400px;
+	clear: left;
 }
 footer {
 	color: white;
 	text-align: right;
 }
+p {
+	color: white;
+	font-size: 25px;
+	width: 500px;
+	float: left;
+	clear: left;
+}
+article {
+	width: 1000px;
+	margin-left: 310px;
+}
+img {
+	float: right;
+	clear: right
+}
+section {
+	clear: both;
+}
+
